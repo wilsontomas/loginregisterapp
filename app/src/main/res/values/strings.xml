@@ -3,11 +3,11 @@
 
     <string name="loginTitle">Inicio de sesion</string>
     <string name="loginBtn">Ingresar</string>
-    <string name="loginEmailLabel">Correo</string>
+    <string name="loginNamelLabel">Nombre de usuario</string>
     <string name="loginPasswordLabel">clave</string>
+    <string name="logOutBtnText">Cerrar Sesion</string>
 
-
-    <string name="registerBtn">Registrarse</string>
+    <string name="registerBtn">No tienes cuenta? registrate aqui</string>
     <string name="registerTitle">Creacion de usuario</string>
     <string name="registerBtnAction">Crear</string>
     <string name="registerNamelLabel">Usuario</string>
@@ -25,8 +25,8 @@
     <string name="direccion">Direccion</string>
 
 
-    <string name="forgotPasswordBtn">Olvidaste tu clave?</string>
+    <string name="forgotPasswordBtn">Olvidaste tu clave? click aqui</string>
     <string name="forgotPasswordAction">Recuperar</string>
     <string name="forgotTitle">Menu de recuperacion</string>
-    <string name="forgotEmail">Correo</string>
+    <string name="forgotName">Nombre de usuario</string>
 </resources>

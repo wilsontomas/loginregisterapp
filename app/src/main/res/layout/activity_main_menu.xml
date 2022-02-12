@@ -4,6 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainMenu">
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/user"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/logOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logOutBtnText"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

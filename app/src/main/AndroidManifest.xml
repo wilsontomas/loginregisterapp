@@ -11,10 +11,12 @@
         android:theme="@style/Theme.LoginRegisterApp">
         <activity
             android:name=".RegisterMenu"
-            android:exported="false" />
+            android:parentActivityName=".MainMenu"
+            android:exported="true" />
         <activity
             android:name=".ForgotMenu"
-            android:exported="false" />
+            android:parentActivityName=".MainMenu"
+            android:exported="true" />
         <activity
             android:name=".LoginMenu"
             android:exported="true">
@@ -26,7 +28,8 @@
         </activity>
         <activity
             android:name=".MainMenu"
-            android:exported="false" />
+            android:parentActivityName=".MainMenu"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
