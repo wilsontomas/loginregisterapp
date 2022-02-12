@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Aplicacion</string>
+
+    <string name="loginTitle">Inicio de sesion</string>
+    <string name="loginBtn">Ingresar</string>
+    <string name="loginEmailLabel">Correo</string>
+    <string name="loginPasswordLabel">clave</string>
+
+
+    <string name="registerBtn">Registrarse</string>
+    <string name="registerTitle">Creacion de usuario</string>
+    <string name="registerBtnAction">Crear</string>
+    <string name="registerNamelLabel">Usuario</string>
+    <string name="registerPasswordLabel">Clave</string>
+    <string name="registerPasswordConfirm">Confirmar clave</string>
+
+
+    <string name="backBtn">Volver</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="telefono">Telefono</string>
+    <string name="fecha">Fecha</string>
+    <string name="pais">Pais</string>
+    <string name="direccion">Direccion</string>
+
+
+    <string name="forgotPasswordBtn">Olvidaste tu clave?</string>
+    <string name="forgotPasswordAction">Recuperar</string>
+    <string name="forgotTitle">Menu de recuperacion</string>
+    <string name="forgotEmail">Correo</string>
+</resources>
